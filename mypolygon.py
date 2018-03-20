@@ -7,8 +7,8 @@ def square(t, length):
         t.lt(90)
 
 def polyline(t, n, length, angle):
-""" Draws n line segments with the given length and angle (in degrees) between them.
-t is a turtle. """
+    """ Draws n line segments with the given length and angle (in degrees) between them.
+    t is a turtle. """
 
     angle = 360 / n
     for i in range(n):
