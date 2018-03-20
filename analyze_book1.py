@@ -1,3 +1,6 @@
+#code from http://greenteapress.com/thinkpython2/code/analyze_book1.py
+
+
 from __future__ import print_function, division
 
 import random
