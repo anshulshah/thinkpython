@@ -113,7 +113,7 @@ def main():
 
     t = most_common(hist)
     print('The most common words are: ')
-    for freq, word in t{0:20]:
+    for freq, word in t[0:20]:
         print(word, '\t', freq)
 
     words = process_file('words.txt', skip_header = False)
